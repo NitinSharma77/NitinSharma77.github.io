@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+3 img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+body>main {
+    background-color: red;
+    min-height: 100vh;
+    display: flex;
+}
+
+body section {
+    background-color: #fff;
+    flex: 1;
+    display: flex;
+    padding: 5rem 0 5rem 5rem;
+
+}
+
+body section:nth-of-type(2) {
+    background-color: orangered;
+    padding: 5rem 5rem 5rem 0;
+}
+
+body section>div {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body section:nth-of-type(2)>div {
+    background: url("/assets/WhatsApp\ Image\ 2023-08-26\ at\ 11.38.28\ AM.jpeg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    filter: ;
+}
